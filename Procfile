@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/cc-test-1" config.wsgi:application
